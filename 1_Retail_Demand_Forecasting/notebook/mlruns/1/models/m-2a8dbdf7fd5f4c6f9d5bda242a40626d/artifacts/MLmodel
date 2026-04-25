@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/Hp2/PROJECT-ASSESSMENT/PROJECT-ASSESSMENT/1_Retail_Demand_Forecasting/notebook/mlruns/1/models/m-2a8dbdf7fd5f4c6f9d5bda242a40626d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-2a8dbdf7fd5f4c6f9d5bda242a40626d
+model_size_bytes: 3569141
+model_uuid: m-2a8dbdf7fd5f4c6f9d5bda242a40626d
+prompts: null
+run_id: a9ade4f808c1480f90187155a6197570
+utc_time_created: '2026-04-25 05:10:52.912735'
